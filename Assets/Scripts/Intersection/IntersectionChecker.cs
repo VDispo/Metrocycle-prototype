@@ -126,8 +126,8 @@ public class IntersectionChecker : MonoBehaviour
                 if (greenLights != null) {
                     int trafficLightIdx = (int) (entryIdx / 2);
                     Debug.Log($"TRAFFIC LIGHT {greenLights} {trafficLightIdx} {entryIdx}");
-                    Debug.Log(greenLights[trafficLightIdx] + " " + (greenLights[trafficLightIdx]?.active ?? false));
-                    if (greenLights[trafficLightIdx] != null && !greenLights[trafficLightIdx].active) {
+                    Debug.Log(greenLights[trafficLightIdx] + " " + (greenLights[trafficLightIdx]?.activeSelf ?? false));
+                    if (greenLights[trafficLightIdx] != null && !greenLights[trafficLightIdx].activeSelf) {
                         Debug.Log("Entered on Red Light " + entryIdx);
                         type = PopupType.ERROR;
                         popupText = redLightText;

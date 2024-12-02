@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ThirdPartyAssets\\Ash Assets\\Arcade Bike Physics\\Scripts\\ArcadeBikeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8624238-F317-C334-42DB-BF29DBB00FCE}|GameAssembly.csproj|d:\\documents\\my up files\\4a\\cs 198 (special project i)\\metrocycle-prototype\\assets\\scripts\\androidexclusive\\throttleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8624238-F317-C334-42DB-BF29DBB00FCE}|GameAssembly.csproj|D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\assets\\scripts\\androidexclusive\\throttleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8624238-F317-C334-42DB-BF29DBB00FCE}|GameAssembly.csproj|solutionrelative:assets\\scripts\\androidexclusive\\throttleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CS198_Playground\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Deque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CS198_Playground\\Deque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8624238-F317-C334-42DB-BF29DBB00FCE}|GameAssembly.csproj|D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\assets\\scripts\\intersection\\intersectionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8624238-F317-C334-42DB-BF29DBB00FCE}|GameAssembly.csproj|solutionrelative:assets\\scripts\\intersection\\intersectionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deque.cs",
+              "DocumentMoniker": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Deque.cs",
+              "RelativeDocumentMoniker": "Assets\\CS198_Playground\\Deque.cs",
+              "ToolTip": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Deque.cs",
+              "RelativeToolTip": "Assets\\CS198_Playground\\Deque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:51:11.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Move.cs",
+              "DocumentMoniker": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\CS198_Playground\\Move.cs",
+              "ToolTip": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\CS198_Playground\\Move.cs",
+              "RelativeToolTip": "Assets\\CS198_Playground\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:50:45.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntersectionChecker.cs",
+              "DocumentMoniker": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\Scripts\\Intersection\\IntersectionChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Intersection\\IntersectionChecker.cs",
+              "ToolTip": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\Scripts\\Intersection\\IntersectionChecker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Intersection\\IntersectionChecker.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAwHYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:47:45.074Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,10 +76,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\AndroidExclusive\\ThrottleUI.cs",
               "ToolTip": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\Scripts\\AndroidExclusive\\ThrottleUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\AndroidExclusive\\ThrottleUI.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:20:03.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T11:20:03.713Z"
             },
             {
               "$type": "Document",
@@ -41,7 +88,7 @@
               "RelativeDocumentMoniker": "Assets\\ThirdPartyAssets\\Ash Assets\\Arcade Bike Physics\\Scripts\\ArcadeBikeController.cs",
               "ToolTip": "D:\\Documents\\MY UP FILES\\4A\\CS 198 (Special Project I)\\Metrocycle-prototype\\Assets\\ThirdPartyAssets\\Ash Assets\\Arcade Bike Physics\\Scripts\\ArcadeBikeController.cs",
               "RelativeToolTip": "Assets\\ThirdPartyAssets\\Ash Assets\\Arcade Bike Physics\\Scripts\\ArcadeBikeController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T10:43:40.454Z",
               "EditorCaption": ""

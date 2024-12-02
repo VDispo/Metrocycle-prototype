@@ -1,4 +1,6 @@
-﻿// modified FROM: https://raw.githubusercontent.com/unageek/Deque/main/src/Deque.cs
+﻿#nullable enable // to suppress Unity warning message
+
+// modified FROM: https://raw.githubusercontent.com/unageek/Deque/main/src/Deque.cs
 // TODO: use package manager instead of vendoring this file
 
 using System.Collections;

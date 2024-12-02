@@ -32,38 +32,6 @@ Transform:
   - {fileID: 1442465698816446109}
   m_Father: {fileID: 4068512288119437784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2676730602382896695
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1910234504827683914}
-  m_Layer: 9
-  m_Name: FrontTriggerHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1910234504827683914
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2676730602382896695}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06499998, y: -0.68000007, z: 4.03}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6638732253003173013}
-  m_Father: {fileID: 4068512288119437784}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2685291044182340123
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,32 +144,32 @@ MonoBehaviour:
   - wheelTransform: {fileID: 1360187858970627508}
     wheelGraphics: {fileID: 7156231379720212974}
     wheelPosition: 0
-    wheelRadius: 0.6574798
-    wheelCircumference: 4.1310678
-    raycastLength: 0.9204718
+    wheelRadius: 0.52598387
+    wheelCircumference: 3.3048542
+    raycastLength: 0.78897583
     maxSuspension: 0.26299194
   - wheelTransform: {fileID: 4219108861142712559}
     wheelGraphics: {fileID: 203487533335542028}
     wheelPosition: 0
-    wheelRadius: 0.6574798
-    wheelCircumference: 4.1310678
-    raycastLength: 0.9204718
+    wheelRadius: 0.52598387
+    wheelCircumference: 3.3048542
+    raycastLength: 0.78897583
     maxSuspension: 0.26299194
   - wheelTransform: {fileID: 6739910912521034693}
     wheelGraphics: {fileID: 2723005383490095397}
     wheelPosition: 1
-    wheelRadius: 0.6574798
-    wheelCircumference: 4.1310678
-    raycastLength: 0.9204718
+    wheelRadius: 0.52598387
+    wheelCircumference: 3.3048542
+    raycastLength: 0.78897583
     maxSuspension: 0.26299194
   - wheelTransform: {fileID: 8732507708657704989}
     wheelGraphics: {fileID: 7950394320162106685}
     wheelPosition: 1
-    wheelRadius: 0.6574798
-    wheelCircumference: 4.1310678
-    raycastLength: 0.9204718
+    wheelRadius: 0.52598387
+    wheelCircumference: 3.3048542
+    raycastLength: 0.78897583
     maxSuspension: 0.26299194
-  frontTrigger: {fileID: 1910234504827683914}
+  frontTrigger: {fileID: 1412261225037916756}
   shadowHolder: {fileID: 0}
   vehicleType: 3
   maxSuspension: 0
@@ -268,59 +236,6 @@ Transform:
   - {fileID: 465475042098718191}
   m_Father: {fileID: 4068512288119437784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4728052805012354667
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6638732253003173013}
-  - component: {fileID: 2976515052892627015}
-  m_Layer: 9
-  m_Name: FrontTrigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6638732253003173013
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4728052805012354667}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 2.25}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1910234504827683914}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2976515052892627015
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4728052805012354667}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.2335982, y: 1, z: 4.5}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5066214435515621843
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +271,59 @@ Transform:
   - {fileID: 8732507708657704989}
   m_Father: {fileID: 4068512288119437784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5418198141091778235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8887272650195671447}
+  - component: {fileID: 4139121726321318916}
+  m_Layer: 9
+  m_Name: FrontTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8887272650195671447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5418198141091778235}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 2.25}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1412261225037916756}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4139121726321318916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5418198141091778235}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.2335982, y: 1, z: 4.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6749327797670961783
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,8 +356,40 @@ Transform:
   - {fileID: 1980615504379756184}
   - {fileID: 1619752680202066056}
   - {fileID: 111550892060488010}
-  - {fileID: 1910234504827683914}
+  - {fileID: 1412261225037916756}
   m_Father: {fileID: 4317718773136227265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7292672485085424825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412261225037916756}
+  m_Layer: 9
+  m_Name: FrontTriggerHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412261225037916756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292672485085424825}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06499998, y: -0.68000007, z: 4.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8887272650195671447}
+  m_Father: {fileID: 4068512288119437784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7417802941213465651
 GameObject:

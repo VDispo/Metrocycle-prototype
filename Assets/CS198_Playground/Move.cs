@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     Vector3 Vec;
     private Rigidbody rigid;
-    private float TurnSpeed = 2f;
+    //private float TurnSpeed = 2f; // commented out as it is unused [Unity gives warning]
     // Start is called before the first frame update
     void Start()
     {

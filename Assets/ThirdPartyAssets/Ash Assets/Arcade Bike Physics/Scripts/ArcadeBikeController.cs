@@ -46,7 +46,8 @@ namespace ArcadeBP
         private Vector3 origin;
 
         [Header("Android Controls")]
-        [SerializeField] private bool isAndroid;
+        [SerializeField] private bool isAndroid = false;
+        [SerializeField] private bool hasGyroscope = false;
         [SerializeField] private Slider throttleSlider;
 
         private void Start()
@@ -60,15 +61,28 @@ namespace ArcadeBP
 
             isAndroid = Application.platform == RuntimePlatform.Android;
             isAndroid = true; // debug
-            if (isAndroid) Input.gyro.enabled = true;
+
+            if (isAndroid && SystemInfo.supportsGyroscope)
+            {
+                Input.gyro.enabled = true;
+                hasGyroscope = true;
+            }
         }
         private void Update()
         {
             if (isAndroid) 
             {
-                //turning input [this worked once with me, pero its bad and inconsistent pls replace this logic]
-                float yaw = -Mathf.Clamp(Input.gyro.attitude.eulerAngles.z, 20, 130); // 75 +- 55 (eyeballed), also negated since it starts off inverted 
-                horizontalInput = (yaw - 75) / 55; // normalized
+                //turning input
+                if (hasGyroscope) // use gyroscope if available
+                {
+                    horizontalInput += -Input.gyro.rotationRate.z * Time.deltaTime; // gyro.rotationrate outputs a DELTA or change in the rotation, hence we add here (also it is inverted by default hence the negative)
+                    //Debug.LogWarning("using gyroscope: " + horizontalInput);
+                }
+                else // use accelerometer if no gyroscope
+                {
+                    horizontalInput = Input.acceleration.x; 
+                    //Debug.LogWarning("using accelerometer: " + horizontalInput);
+                }
 
                 verticalInput = throttleSlider.value; //acceleration input
             }
