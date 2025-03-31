@@ -5,7 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class nextScene : MonoBehaviour
 {
-     public void LoadScene(string sceneName)
+    public static nextScene Instance;
+
+    private void Start()
+    {
+        if (Instance) Destroy(Instance.gameObject);
+        Instance = this;
+    }
+
+    public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }

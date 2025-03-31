@@ -43805,6 +43805,11 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1181747644126863611, guid: b80445d0d840830df8cd902c0cea3559,
+        type: 3}
+      propertyPath: m_CustomSkybox
+      value: 
+      objectReference: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
     - target: {fileID: 1694819216128298580, guid: b80445d0d840830df8cd902c0cea3559,
         type: 3}
       propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
@@ -44087,6 +44092,11 @@ PrefabInstance:
       propertyPath: steeringMultiplier
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5422843695789476932, guid: b80445d0d840830df8cd902c0cea3559,
+        type: 3}
+      propertyPath: m_CustomSkybox
+      value: 
+      objectReference: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
     - target: {fileID: 5807728575378696424, guid: b80445d0d840830df8cd902c0cea3559,
         type: 3}
       propertyPath: m_Texture

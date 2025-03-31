@@ -5360,7 +5360,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2047
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: dd89ec853d74f0351aeaf1c537cc6e42, type: 2}
   m_TargetDisplay: 0
@@ -5534,9 +5534,10 @@ GameObject:
   - component: {fileID: 8244224554950854333}
   - component: {fileID: 6729210326115368172}
   - component: {fileID: 4240850469770444032}
+  - component: {fileID: 3959075495211682927}
   m_Layer: 0
   m_Name: UI Camera
-  m_TagString: Untagged
+  m_TagString: SideMirrorCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5595,7 +5596,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2047
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: f0b2f4b7cc24e76418ea441586345403, type: 2}
   m_TargetDisplay: 0
@@ -5659,6 +5660,15 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!45 &3959075495211682927
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2487232928750859592}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &3227709024407403723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5907,7 +5917,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2047
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: b5679b8f59ac8cbf4931b1abeac7cfc2, type: 2}
   m_TargetDisplay: 0
@@ -6158,9 +6168,10 @@ GameObject:
   - component: {fileID: 1776995341066987204}
   - component: {fileID: 1707190642688394583}
   - component: {fileID: 8977495724390798811}
+  - component: {fileID: 8692880805876396393}
   m_Layer: 0
   m_Name: UI Camera
-  m_TagString: Untagged
+  m_TagString: SideMirrorCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6219,7 +6230,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2047
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 4190253b0d4502a439b3f8669ff3b26f, type: 2}
   m_TargetDisplay: 0
@@ -6283,6 +6294,15 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!45 &8692880805876396393
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5671733187635926574}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1 &5979533320120663939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6485,6 +6505,9 @@ MonoBehaviour:
   throttleSlider: {fileID: 0}
   leftBrakeButton: {fileID: 0}
   rightBrakeButton: {fileID: 0}
+  logBase: 2.71828
+  accelerationCurve: 100
+  steeringMultiplier: 1
 --- !u!54 &6614786720247966130
 Rigidbody:
   m_ObjectHideFlags: 0

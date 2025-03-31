@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 6306223421335846071}
   - component: {fileID: 3047623131622889965}
   - component: {fileID: 7954857072185532402}
+  - component: {fileID: 3116115684069521036}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -399,8 +400,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4231733877894911492}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.09316641, y: 0.012846415, z: -0.0012019828, w: -0.99556696}
+  m_LocalPosition: {x: 176.90823, y: 22.060072, z: 116.94183}
   m_LocalScale: {x: 1, y: 1, z: 1.2774}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -445,7 +446,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2047
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -566,6 +567,15 @@ MonoBehaviour:
   leftHeadCheckButton: {fileID: 0}
   rightHeadCheckButton: {fileID: 0}
   overHeadCheckButton: {fileID: 0}
+--- !u!45 &3116115684069521036
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4231733877894911492}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
 --- !u!1 &4515003856583963539
 GameObject:
   m_ObjectHideFlags: 0

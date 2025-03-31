@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Side Obstacle
+  - SideMirrorCamera
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - drivable
   - AI Traffic
   - obstacles
-  - 
+  - rainCameraEffects
   - 
   - 
   - 
@@ -41,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Camera_Effect
+    uniqueID: 2013361019
     locked: 0
